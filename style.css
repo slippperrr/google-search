@@ -1,0 +1,85 @@
+img{
+    position: absolute;
+    top:  30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 100px;
+}
+
+.input{
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 550px;
+    height: 40px;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 25px;
+    padding-left: 10px;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input:hover{
+    box-shadow: 0px 0px 5px 0px grey;
+}
+
+.submit_search{
+    position: absolute;
+    bottom: 220px;
+    left: 450px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:rgb(239, 239, 239);
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.submit_search:hover{
+    border: 0.5px solid rgb(209, 209, 209);
+}
+
+.submit_Feeling_Lucky{
+    position: absolute;
+    bottom: 220px;
+    right: 470px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:rgb(239, 239, 239);
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.submit_Feeling_Lucky:hover{
+    border: 0.5px solid rgb(209, 209, 209);
+}
+
+.Image_Search{
+    position: absolute;
+    right: 200px;
+    text-decoration: none;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+.Image_Search:hover{
+    text-decoration: underline;
+}
+
+.Advanced_Search{
+    position: absolute;
+    right: 50px;
+    text-decoration: none;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.Advanced_Search:hover{
+    text-decoration: underline;
+}

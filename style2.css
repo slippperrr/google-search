@@ -1,0 +1,117 @@
+body{
+    font-family: arial,sans-serif
+}
+.back_search{
+    position: absolute;
+    right: 50px;
+    text-decoration: none;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+.back_search:hover{
+    text-decoration: underline;
+}
+
+.google_logo{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 70px;
+    height: 25px;
+}
+
+.a_s{
+    font-size: 20px;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    color: #d93025;
+    text-decoration: wavy;
+    margin: 25px 35px
+}
+
+hr{
+    position: relative;
+    top:110px;
+    display:block; 
+    height: 1px;
+    border:0; 
+    border-top: 1px solid #dbd9d9;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.fpw{
+    position: absolute;
+    text-align: left;
+    top: 150px;
+    left: 10px;
+    margin: 25px 35px;
+}
+
+.form-line {
+    height: 24px;
+    width: 100%;
+    height: 90%;
+    display:inline-flex;
+    padding-top: 15px;
+}
+.first-col {
+    width: 15%;
+    font-size: 12px;
+}
+
+.second-col {
+    width: 45%;
+    display: inline-flex;
+}
+
+.second-col input {
+    height: 27px;
+    width: 100%;
+}
+
+.third-col {
+    width: 40%;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-size: 11px;
+    float: right;
+    color: grey;
+}
+
+input {
+    outline: none;
+    border: 1px solid black;
+}
+input:focus {
+    outline: blue;
+    border-color: blue;
+}
+
+h4{
+    position: absolute;
+    top:150px;
+    right: 250px;
+    color: rgb(123, 123, 123);
+}
+
+.submit_search_adv{
+    position: absolute;
+    top:400px;
+    right:505px;
+    height: 30px;
+    background-color: rgb(78, 142, 252);
+    color:white;
+}
+
+.all{
+    position: absolute;
+    text-align: left;
+    top:200px;
+    left:45px
+
+}
